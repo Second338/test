@@ -44,7 +44,7 @@ class TextWindow:
         title_label.grid(row=0, column=0, sticky=tk.W, pady=(0, 10))
         
         # Text entry label
-        entry_label = ttk.Label(main_frame, text="Enter text:")
+        entry_label = ttk.Label(main_frame, text="Enter text please:")
         entry_label.grid(row=1, column=0, sticky=tk.W, pady=(0, 5))
         
         # Text entry field
